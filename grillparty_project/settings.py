@@ -27,7 +27,8 @@ SECRET_KEY = 'django-insecure-@i!1%=0aq24#oo_)&m_x)wb5*e4@$qtqerj8$22e*psa4h3m*2
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+# Update ALLOWED_HOSTS to include your Render.com domain
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'foot-grill.onrender.com']
 
 
 # Application definition
